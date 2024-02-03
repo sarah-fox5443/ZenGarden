@@ -1,0 +1,6 @@
+@mixin all-cap {text-transform: uppercase;}
+
+
+h1 { 
+    @include all-cap()
+}
