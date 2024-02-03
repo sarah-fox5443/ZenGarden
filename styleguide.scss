@@ -1,0 +1,29 @@
+//variables 
+$body-color: #1B2932;
+$header-color: #07080D;
+$lines:#554C43;
+$box-text:#554C43;
+$light-color:#EEDC82;
+//fonts
+$first_header: Xanh Mono;
+$second_header: Noto Serif;
+$paragraph: Times New Roman;
+html{
+  background-color: $body-color;
+}
+h1,h2,h3,h4{
+  color:$header-color;
+}
+h1{
+  font: $first_header;
+}
+h2{
+  font: $second_header;
+}
+p{
+  color:#554C43;
+  font:$paragraph;
+}
+
+
+
